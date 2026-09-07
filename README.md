@@ -1,63 +1,102 @@
 <div align="center">
 
-# 🎨 ASCII TEXT / Graffiti ASCII Art Generator
+# 🎨 ASCII Text / Graffiti Art Generator
 
-**Python desktop ASCII art text generator with pyfiglet fonts, alignment and clipboard support**  
-**Desktopowy generator napisów ASCII Art w Pythonie z czcionkami pyfiglet i kopiowaniem do schowka**
+### Desktop ASCII Art Generator with Hundreds of Figlet Fonts
+
+**Python • Tkinter • pyfiglet • Clipboard • EN / PL**
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
-![GUI](https://img.shields.io/badge/GUI-Tkinter-2ea44f)
-![ASCII](https://img.shields.io/badge/ASCII-pyfiglet-ff4fa3)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-2ea44f)
+![pyfiglet](https://img.shields.io/badge/ASCII-pyfiglet-ff9800)
+![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20PL-ff4fa3)
 ![Author](https://img.shields.io/badge/Author-Swir-8A2BE2)
 
 </div>
 
 ---
 
-## 🇬🇧 English
+## 🚀 About
 
-ASCII TEXT is a lightweight Python GUI ASCII art generator for turning ordinary text into terminal-style banners, graffiti text and FIGlet-style ASCII typography. The application uses `pyfiglet`, provides access to its available font collection and lets you control output width and alignment from a graphical Tkinter interface.
+**ASCII Text / Graffiti Art Generator** is a lightweight Python desktop app for turning normal text into stylized ASCII banners using the large collection of fonts provided by `pyfiglet`.
 
-### ✨ Features
-- generate ASCII art from any text
-- browse available `pyfiglet` / FIGlet fonts
-- custom output width
-- left, center and right alignment
-- scrollable preview area
-- one-click copy to clipboard
-- dark desktop interface
+Choose a font, set output width and alignment, generate the result instantly and copy it directly to the clipboard. The repository now includes separate **English** and **Polish** versions.
 
-### 🚀 Installation
+It is designed for users searching for an **ASCII art generator**, **ASCII text generator**, **Figlet GUI**, **Python banner generator**, **terminal text art creator** or a desktop tool for creating text-based logos and headers.
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 🔤 Text to ASCII | Convert normal text into ASCII banners |
+| 🎭 Figlet fonts | Access the full installed pyfiglet font list |
+| ↔️ Width control | Configure output width |
+| 📐 Alignment | Left, center and right alignment |
+| 📋 Clipboard | Copy generated ASCII art instantly |
+| 🌙 Dark UI | Simple dark Tkinter interface |
+| 🌍 Two languages | Separate English and Polish application files |
+| 🔗 GitHub shortcut | Open the author's GitHub profile from the app |
+
+---
+
+## 🌍 Language Versions
+
+| Language | File |
+|---|---|
+| 🇬🇧 English | `ASCItext_EN.py` |
+| 🇵🇱 Polski | `ASCItext.py` |
+
+---
+
+## 📦 Installation
 
 ```bash
 git clone https://github.com/Swir/ASCITEXT.git
 cd ASCITEXT
 pip install pyfiglet pyperclip
+```
+
+Run English:
+
+```bash
+python ASCItext_EN.py
+```
+
+Run Polish:
+
+```bash
 python ASCItext.py
 ```
 
 ---
 
-## 🇵🇱 Polski
+## 🧩 Project Structure
 
-ASCII TEXT to lekki program desktopowy zamieniający zwykły tekst w efektowne napisy ASCII Art, bannery terminalowe i tekst w stylu FIGlet. Aplikacja korzysta z `pyfiglet`, udostępnia dostępne style czcionek oraz pozwala ustawić szerokość i wyrównanie wyniku.
-
-### ✨ Funkcje
-- generowanie ASCII Art z dowolnego tekstu
-- wybór czcionek `pyfiglet` / FIGlet
-- własna szerokość wyniku
-- wyrównanie do lewej, środka lub prawej
-- przewijany podgląd
-- kopiowanie wyniku do schowka
-- ciemny interfejs graficzny
-
-### 🔎 Discoverability / Keywords
-`ascii art generator` • `python ascii generator` • `pyfiglet gui` • `figlet generator` • `terminal banner generator` • `graffiti text` • `tkinter ascii art`
+```text
+ASCITEXT/
+├── ASCItext.py       # Polish version
+├── ASCItext_EN.py    # English version
+└── README.md
+```
 
 ---
 
-## 🧰 Tech Stack
-`Python` • `Tkinter / ttk` • `pyfiglet` • `pyperclip`
+## 🔍 Discoverability
 
-## 👤 Author / Autor
-Developed by **Swir**.
+`ascii art generator` • `ascii text generator` • `figlet gui` • `pyfiglet gui` • `python ascii generator` • `terminal banner generator` • `text to ascii art` • `ascii logo maker` • `graffiti text generator python`
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Swir** — [@Swir](https://github.com/Swir)
+
+<div align="center">
+
+### 🎨 Turn plain text into terminal-style art
+
+⭐ **Star the repository if you enjoy the project!**
+
+</div>
