@@ -1,55 +1,69 @@
-# Graffiti ASCII Art Generator
+<div align="center">
 
-🇵🇱 Polska wersja | 🇬🇧 [English Version](#🇬🇧-english-version)
+# 🎨 ASCII TEXT / Graffiti ASCII Art Generator
 
----
+**Desktop ASCII-art text generator by Swir**  
+**Desktopowy generator napisów ASCII Art autorstwa Swir**
 
-## 🇵🇱 Polska Wersja
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-2ea44f)
+![ASCII](https://img.shields.io/badge/ASCII-pyfiglet-ff4fa3)
+![Author](https://img.shields.io/badge/Author-Swir-8A2BE2)
 
-Projekt **Graffiti ASCII Art Generator** pozwala na tworzenie tekstu w formacie ASCII przy użyciu różnych stylów. Aplikacja oferuje szeroki wybór stylów czcionek, opcje wyrównania oraz możliwość dostosowania szerokości tekstu ASCII. Wygenerowany tekst ASCII można łatwo skopiować do schowka i udostępnić.
-
-### Funkcje
-- **Ponad 100 stylów czcionek ASCII**: Wybierz spośród szerokiej gamy czcionek, w tym popularnych stylów takich jak graffiti, slant, banner, digital i wiele innych.
-- **Dostosowanie szerokości**: Ustaw szerokość wygenerowanego tekstu ASCII zgodnie z potrzebami.
-- **Opcje wyrównania**: Wyrównaj tekst do lewej, na środku lub do prawej strony.
-- **Kopiowanie do schowka**: Szybko kopiuj wygenerowany tekst ASCII do schowka.
-- **Przyjazny interfejs**: Aplikacja posiada intuicyjny, ciemny interfejs.
-
-### Jak używać
-1. **Wpisz swój tekst**: Wpisz tekst, który chcesz przekonwertować na ASCII Art.
-2. **Wybierz styl czcionki**: Wybierz styl ASCII z listy.
-3. **Ustaw szerokość i wyrównanie**:
-   - **Szerokość**: Wpisz wartość szerokości (domyślnie 100).
-   - **Wyrównanie**: Wybierz wyrównanie do lewej, na środku lub do prawej.
-4. **Generuj ASCII Art**: Kliknij "Generuj ASCII Art", aby stworzyć napis.
-5. **Skopiuj ASCII Art**: Użyj przycisku "Kopiuj ASCII Art", aby skopiować wynik do schowka.
-
-# Graffiti ASCII Art Generator
-
+</div>
 
 ---
 
-## 🇬🇧 English Version
+## 🇬🇧 English
 
-This project is a **Graffiti ASCII Art Generator** that allows you to create text art in ASCII format with various styles. The application provides a wide range of font styles, alignment options, and customizable width for generating ASCII art. You can copy the generated ASCII art to your clipboard and share it easily.
+ASCII TEXT is a lightweight desktop utility for turning ordinary text into stylized ASCII art. The application uses `pyfiglet`, provides access to its available font collection and lets you control output width and alignment from a graphical interface.
 
-### Features
-- **Over 100 ASCII Font Styles**: Choose from a wide variety of fonts, including popular styles like graffiti, slant, banner, digital, and more.
-- **Customizable Width**: Set the width of the ASCII art to fit your needs.
-- **Alignment Options**: Align text to the left, center, or right for perfect formatting.
-- **Copy to Clipboard**: Quickly copy generated ASCII art to the clipboard.
-- **Intuitive Interface**: Designed with a user-friendly and dark-themed interface.
+### ✨ Features
+- generate ASCII art from any text
+- browse available `pyfiglet` fonts
+- custom output width
+- left, center and right alignment
+- scrollable preview area
+- one-click copy to clipboard
+- dark desktop interface
 
-### How to Use
-1. **Enter Your Text**: Type the text you want to convert to ASCII art.
-2. **Select a Font Style**: Choose from the extensive list of ASCII font styles.
-3. **Set Width and Alignment**:
-   - **Width**: Enter a width value (default is 100).
-   - **Alignment**: Select left, center, or right alignment.
-4. **Generate ASCII Art**: Click on "Generate ASCII Art" to create your text art.
-5. **Copy the ASCII Art**: Use the "Copy ASCII Art" button to save the output to your clipboard.
+### 🚀 Installation
 
-### Installation
-Make sure you have `pyfiglet` and `tkinter` installed. You can install `pyfiglet` with:
 ```bash
-pip install pyfiglet
+git clone https://github.com/Swir/ASCITEXT.git
+cd ASCITEXT
+pip install pyfiglet pyperclip
+python ASCItext.py
+```
+
+---
+
+## 🇵🇱 Polski
+
+ASCII TEXT to lekki program desktopowy zamieniający zwykły tekst w efektowne napisy ASCII Art. Aplikacja korzysta z `pyfiglet`, udostępnia dostępne style czcionek oraz pozwala ustawić szerokość i wyrównanie wyniku.
+
+### ✨ Funkcje
+- generowanie ASCII Art z dowolnego tekstu
+- wybór czcionek `pyfiglet`
+- własna szerokość wyniku
+- wyrównanie do lewej, środka lub prawej
+- przewijany podgląd
+- kopiowanie wyniku do schowka
+- ciemny interfejs graficzny
+
+### 🚀 Instalacja
+
+```bash
+git clone https://github.com/Swir/ASCITEXT.git
+cd ASCITEXT
+pip install pyfiglet pyperclip
+python ASCItext.py
+```
+
+---
+
+## 🧰 Tech Stack
+`Python` • `Tkinter / ttk` • `pyfiglet` • `pyperclip`
+
+## 👤 Author / Autor
+Developed by **Swir**.
