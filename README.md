@@ -1,61 +1,74 @@
+<!-- SWIR-README-STANDARD:v2 -->
+
 <div align="center">
 
-# 🎨 ASCII Text / Graffiti Art Generator
+<img width="100%" src="assets/readme/hero.svg" alt="ASCITEXT — bilingual Tkinter and pyfiglet text-to-ASCII generator" />
 
-### Desktop ASCII Art Generator with Hundreds of Figlet Fonts
+<br>
 
-**Python • Tkinter • pyfiglet • Clipboard • EN / PL**
+![Python](https://img.shields.io/badge/Release%20Build-Python%203.11-02050A?style=for-the-badge&logo=python&logoColor=62E5FF)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-02050A?style=for-the-badge&logo=python&logoColor=62E5FF)
+![Engine](https://img.shields.io/badge/Text-pyfiglet-02050A?style=for-the-badge&logo=gnubash&logoColor=62E5FF)
+![Release](https://img.shields.io/badge/Release-v1.0.0-02050A?style=for-the-badge&logo=github&logoColor=62E5FF)
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-2ea44f)
-![pyfiglet](https://img.shields.io/badge/ASCII-pyfiglet-ff9800)
-![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20PL-ff4fa3)
-![Author](https://img.shields.io/badge/Author-Swir-8A2BE2)
+[![Author](https://img.shields.io/badge/Author-Swir-0088FF?style=flat-square&logo=github)](https://github.com/Swir)
+[![Stars](https://img.shields.io/github/stars/Swir/ASCITEXT?style=flat-square&color=0088FF)](https://github.com/Swir/ASCITEXT/stargazers)
+
+<br>
+
+[**Highlights**](#-highlights) · [**Quick Start**](#-quick-start) · [**Languages**](#-language-versions) · [**Status**](STATUS.md) · [**Releases**](#-releases)
 
 </div>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/Swir/Swir/main/assets/power-divider-v4.svg" alt="SWIR electric divider" />
 
-## 🚀 About
+## 📍 Project Status
 
-**ASCII Text / Graffiti Art Generator** is a lightweight Python desktop app for turning normal text into stylized ASCII banners using the large collection of fonts provided by `pyfiglet`.
+<img width="100%" src="assets/readme/progress-card.svg" alt="ASCITEXT product progress — N/A because no canonical measurable product roadmap exists" />
 
-Choose a font, set output width and alignment, generate the result instantly and copy it directly to the clipboard. The repository now includes separate **English** and **Polish** versions.
-
-It is designed for users searching for an **ASCII art generator**, **ASCII text generator**, **Figlet GUI**, **Python banner generator**, **terminal text art creator** or a desktop tool for creating text-based logos and headers.
-
----
-
-## ✨ Features
-
-| Feature | Description |
+| Item | Status |
 |---|---|
-| 🔤 Text to ASCII | Convert normal text into ASCII banners |
-| 🎭 Figlet fonts | Access the full installed pyfiglet font list |
-| ↔️ Width control | Configure output width |
-| 📐 Alignment | Left, center and right alignment |
-| 📋 Clipboard | Copy generated ASCII art instantly |
-| 🌙 Dark UI | Simple dark Tkinter interface |
-| 🌍 Two languages | Separate English and Polish application files |
-| 🔗 GitHub shortcut | Open the author's GitHub profile from the app |
+| Current state | Published utility — v1.0.0 |
+| UI | Tkinter / ttk |
+| Text engine | pyfiglet |
+| Languages | Separate Polish and English application files |
+| Latest public release | [v1.0.0](https://github.com/Swir/ASCITEXT/releases/tag/v1.0.0) |
+| Product completion | **N/A** — no canonical measurable roadmap/denominator exists |
+| Detailed status | [STATUS.md](STATUS.md) |
 
----
+The release version, font count, package size and documentation completeness are not treated as product-completion percentages.
 
-## 🌍 Language Versions
+## 🚀 Overview
 
-| Language | File |
+**ASCITEXT** is a lightweight desktop utility that turns ordinary text into Figlet-style ASCII artwork. The repository contains separate Polish and English Tkinter applications. Users can choose from the fonts exposed by `pyfiglet`, set output width and alignment, generate text art and copy the result to the clipboard.
+
+The application's own ASCII artwork is a core feature. The project's documentation progress visualization, however, follows the SWIR SVG-only standard and does not use character-art progress meters.
+
+## ✨ Highlights
+
+| Feature | What it does |
 |---|---|
-| 🇬🇧 English | `ASCItext_EN.py` |
-| 🇵🇱 Polski | `ASCItext.py` |
+| 🔤 Text to ASCII | Converts normal text into Figlet-style ASCII output |
+| 🎭 Figlet font list | Loads the fonts available through `pyfiglet.FigletFont.getFonts()` |
+| ↔️ Width control | Lets the user set a numeric output width; otherwise defaults to 100 |
+| 📐 Alignment | Supports left, center and right output alignment |
+| 📋 Clipboard | Copies generated output through `pyperclip` |
+| 🌙 Desktop UI | Uses Tkinter/ttk with a dark interface and scrollable result area |
+| 🌍 PL / EN | Provides separate Polish and English program files |
+| 🔗 Author shortcut | Opens the Swir GitHub profile from the application |
 
----
+## ⚙️ Quick Start
 
-## 📦 Installation
+### Recommended — Windows release
+
+Download **[ASCITEXT v1.0.0](https://github.com/Swir/ASCITEXT/releases/tag/v1.0.0)**. The verified public release includes separate Polish and English EXE files plus a Windows x64 ZIP and SHA256 checksum.
+
+### From source
 
 ```bash
 git clone https://github.com/Swir/ASCITEXT.git
 cd ASCITEXT
-pip install pyfiglet pyperclip
+python -m pip install pyfiglet pyperclip
 ```
 
 Run English:
@@ -70,33 +83,101 @@ Run Polish:
 python ASCItext.py
 ```
 
----
+## 📋 Requirements / Compatibility
 
-## 🧩 Project Structure
+- Python with Tkinter available.
+- Runtime packages: `pyfiglet` and `pyperclip`.
+- The current release workflow builds and syntax-checks both applications using **Python 3.11** on `windows-latest`.
+- The public v1.0.0 package is a Windows build.
+- Broader Python-version compatibility is not claimed here because the repository does not currently maintain a cross-version test matrix.
+
+## 🌍 Language Versions
+
+| Language | Source file | Release asset |
+|---|---|---|
+| 🇵🇱 Polish | `ASCItext.py` | `ASCITEXT-PL.exe` |
+| 🇬🇧 English | `ASCItext_EN.py` | `ASCITEXT-EN.exe` |
+
+Both versions expose the same main workflow: enter text, choose a Figlet font, set width/alignment, generate output and copy it.
+
+## 🎮 Usage / Workflow
+
+1. Enter text in the input field.
+2. Choose a font from the `pyfiglet` font list.
+3. Set an output width; invalid/non-numeric width input falls back to 100.
+4. Choose left, center or right alignment.
+5. Generate the ASCII artwork.
+6. Copy the result to the clipboard when needed.
+
+## 🧠 Technology / Architecture
+
+| Layer | Technology / role |
+|---|---|
+| GUI | Tkinter + ttk + `ScrolledText` |
+| ASCII rendering | pyfiglet |
+| Clipboard | pyperclip |
+| Browser shortcut | Python `webbrowser` |
+| Packaging | PyInstaller in GitHub Actions |
+| Release verification | `py_compile` for both source files before Windows builds |
 
 ```text
 ASCITEXT/
 ├── ASCItext.py       # Polish version
 ├── ASCItext_EN.py    # English version
-└── README.md
+├── STATUS.md         # truthful product status / progress source note
+├── assets/
+│   ├── app_icon.svg
+│   └── readme/
+│       ├── hero.svg
+│       ├── progress-card.svg
+│       ├── progress-mini.svg
+│       └── progress-template.svg
+├── tools/
+│   └── readme_progress.py
+└── .github/workflows/
 ```
 
----
+## 🧪 Documentation Verification
 
-## 🔍 Discoverability
+```bash
+python tools/readme_progress.py --check
+```
 
-`ascii art generator` • `ascii text generator` • `figlet gui` • `pyfiglet gui` • `python ascii generator` • `terminal banner generator` • `text to ascii art` • `ascii logo maker` • `graffiti text generator python`
+The docs-only workflow checks generated SVG files, required embeddings and retired **documentation progress-meter** patterns. It intentionally does not reject ASCII artwork created by the application itself.
 
----
+## 📦 Releases
 
-## 👨‍💻 Author
+Latest verified public release: **[ASCITEXT v1.0.0](https://github.com/Swir/ASCITEXT/releases/tag/v1.0.0)**.
 
-Developed by **Swir** — [@Swir](https://github.com/Swir)
+Verified release assets include:
+
+- `ASCITEXT-EN.exe`
+- `ASCITEXT-PL.exe`
+- `ASCITEXT-v1.0.0-Windows-x64.zip`
+- `ASCITEXT-v1.0.0-Windows-x64.zip.sha256`
+
+The release workflow compiles both source files, builds both Windows EXEs with PyInstaller, packages the ZIP and writes its SHA256 checksum.
+
+## ⚠️ Limitations
+
+- The Polish and English variants are separate source files rather than a shared runtime localization layer.
+- Font availability is determined by the installed `pyfiglet` package.
+- The repository has no canonical measurable product roadmap, so product-completion progress remains **N/A** instead of being inferred from the v1.0.0 release.
+
+## 🔎 Search Keywords
+
+`ascii art generator` • `ascii text generator` • `figlet gui` • `pyfiglet gui` • `python ascii generator` • `tkinter ascii art` • `text to ascii art` • `terminal banner generator` • `ascii logo maker` • `python desktop text tool` • `figlet desktop app` • `bilingual ascii generator` • `windows ascii art app` • `pyperclip ascii art` • `ascitext`
+
+<img width="100%" src="https://raw.githubusercontent.com/Swir/Swir/main/assets/power-divider-v4.svg" alt="SWIR electric divider" />
 
 <div align="center">
 
-### 🎨 Turn plain text into terminal-style art
+<img src="assets/app_icon.svg" alt="ASCITEXT project icon" width="86" height="86" />
 
-⭐ **Star the repository if you enjoy the project!**
+### `TYPE • RENDER • COPY`
+
+⭐ **If ASCITEXT is useful, consider leaving a star.**
+
+[**← SWIR profile**](https://github.com/Swir) · [**All projects →**](https://github.com/Swir?tab=repositories)
 
 </div>
