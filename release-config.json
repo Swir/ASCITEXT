@@ -1,0 +1,24 @@
+{
+  "title": "ASCITEXT",
+  "package": "ASCITEXT",
+  "readme": "README.md",
+  "applications": [
+    {
+      "name": "ASCITEXT-PL",
+      "entry": "ASCItext.py",
+      "collect": [
+        "pyfiglet"
+      ]
+    },
+    {
+      "name": "ASCITEXT-EN",
+      "entry": "ASCItext_EN.py",
+      "collect": [
+        "pyfiglet"
+      ]
+    }
+  ],
+  "dependencies": [
+    "pyfiglet"
+  ]
+}
